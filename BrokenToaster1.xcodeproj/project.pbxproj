@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C351A001E074222005A4ECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3519FF1E074222005A4ECF /* AppDelegate.swift */; };
+		4C351A021E074222005A4ECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C351A011E074222005A4ECF /* ViewController.swift */; };
+		4C351A051E074222005A4ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C351A031E074222005A4ECF /* Main.storyboard */; };
+		4C351A071E074222005A4ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C351A061E074222005A4ECF /* Assets.xcassets */; };
+		4C351A0A1E074222005A4ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C351A081E074222005A4ECF /* LaunchScreen.storyboard */; };
+		4C351A151E074222005A4ECF /* BrokenToaster1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C351A141E074222005A4ECF /* BrokenToaster1Tests.swift */; };
+		4C351A201E074222005A4ECF /* BrokenToaster1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C351A1F1E074222005A4ECF /* BrokenToaster1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C351A111E074222005A4ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3519F41E074221005A4ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3519FB1E074221005A4ECF;
+			remoteInfo = BrokenToaster1;
+		};
+		4C351A1C1E074222005A4ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3519F41E074221005A4ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3519FB1E074221005A4ECF;
+			remoteInfo = BrokenToaster1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C3519FC1E074221005A4ECF /* BrokenToaster1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrokenToaster1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3519FF1E074222005A4ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C351A011E074222005A4ECF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C351A041E074222005A4ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C351A061E074222005A4ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C351A091E074222005A4ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C351A0B1E074222005A4ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C351A101E074222005A4ECF /* BrokenToaster1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrokenToaster1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C351A141E074222005A4ECF /* BrokenToaster1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenToaster1Tests.swift; sourceTree = "<group>"; };
+		4C351A161E074222005A4ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C351A1B1E074222005A4ECF /* BrokenToaster1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrokenToaster1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C351A1F1E074222005A4ECF /* BrokenToaster1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenToaster1UITests.swift; sourceTree = "<group>"; };
+		4C351A211E074222005A4ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C3519F91E074221005A4ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C351A0D1E074222005A4ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C351A181E074222005A4ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C3519F31E074221005A4ECF = {
+			isa = PBXGroup;
+			children = (
+				4C3519FE1E074221005A4ECF /* BrokenToaster1 */,
+				4C351A131E074222005A4ECF /* BrokenToaster1Tests */,
+				4C351A1E1E074222005A4ECF /* BrokenToaster1UITests */,
+				4C3519FD1E074221005A4ECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C3519FD1E074221005A4ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C3519FC1E074221005A4ECF /* BrokenToaster1.app */,
+				4C351A101E074222005A4ECF /* BrokenToaster1Tests.xctest */,
+				4C351A1B1E074222005A4ECF /* BrokenToaster1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C3519FE1E074221005A4ECF /* BrokenToaster1 */ = {
+			isa = PBXGroup;
+			children = (
+				4C3519FF1E074222005A4ECF /* AppDelegate.swift */,
+				4C351A011E074222005A4ECF /* ViewController.swift */,
+				4C351A031E074222005A4ECF /* Main.storyboard */,
+				4C351A061E074222005A4ECF /* Assets.xcassets */,
+				4C351A081E074222005A4ECF /* LaunchScreen.storyboard */,
+				4C351A0B1E074222005A4ECF /* Info.plist */,
+			);
+			path = BrokenToaster1;
+			sourceTree = "<group>";
+		};
+		4C351A131E074222005A4ECF /* BrokenToaster1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4C351A141E074222005A4ECF /* BrokenToaster1Tests.swift */,
+				4C351A161E074222005A4ECF /* Info.plist */,
+			);
+			path = BrokenToaster1Tests;
+			sourceTree = "<group>";
+		};
+		4C351A1E1E074222005A4ECF /* BrokenToaster1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C351A1F1E074222005A4ECF /* BrokenToaster1UITests.swift */,
+				4C351A211E074222005A4ECF /* Info.plist */,
+			);
+			path = BrokenToaster1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C3519FB1E074221005A4ECF /* BrokenToaster1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C351A241E074222005A4ECF /* Build configuration list for PBXNativeTarget "BrokenToaster1" */;
+			buildPhases = (
+				4C3519F81E074221005A4ECF /* Sources */,
+				4C3519F91E074221005A4ECF /* Frameworks */,
+				4C3519FA1E074221005A4ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrokenToaster1;
+			productName = BrokenToaster1;
+			productReference = 4C3519FC1E074221005A4ECF /* BrokenToaster1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C351A0F1E074222005A4ECF /* BrokenToaster1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C351A271E074222005A4ECF /* Build configuration list for PBXNativeTarget "BrokenToaster1Tests" */;
+			buildPhases = (
+				4C351A0C1E074222005A4ECF /* Sources */,
+				4C351A0D1E074222005A4ECF /* Frameworks */,
+				4C351A0E1E074222005A4ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C351A121E074222005A4ECF /* PBXTargetDependency */,
+			);
+			name = BrokenToaster1Tests;
+			productName = BrokenToaster1Tests;
+			productReference = 4C351A101E074222005A4ECF /* BrokenToaster1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C351A1A1E074222005A4ECF /* BrokenToaster1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C351A2A1E074222005A4ECF /* Build configuration list for PBXNativeTarget "BrokenToaster1UITests" */;
+			buildPhases = (
+				4C351A171E074222005A4ECF /* Sources */,
+				4C351A181E074222005A4ECF /* Frameworks */,
+				4C351A191E074222005A4ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C351A1D1E074222005A4ECF /* PBXTargetDependency */,
+			);
+			name = BrokenToaster1UITests;
+			productName = BrokenToaster1UITests;
+			productReference = 4C351A1B1E074222005A4ECF /* BrokenToaster1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C3519F41E074221005A4ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Emily Kolar";
+				TargetAttributes = {
+					4C3519FB1E074221005A4ECF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B9452FEMTF;
+						ProvisioningStyle = Automatic;
+					};
+					4C351A0F1E074222005A4ECF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B9452FEMTF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C3519FB1E074221005A4ECF;
+					};
+					4C351A1A1E074222005A4ECF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B9452FEMTF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C3519FB1E074221005A4ECF;
+					};
+				};
+			};
+			buildConfigurationList = 4C3519F71E074221005A4ECF /* Build configuration list for PBXProject "BrokenToaster1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C3519F31E074221005A4ECF;
+			productRefGroup = 4C3519FD1E074221005A4ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C3519FB1E074221005A4ECF /* BrokenToaster1 */,
+				4C351A0F1E074222005A4ECF /* BrokenToaster1Tests */,
+				4C351A1A1E074222005A4ECF /* BrokenToaster1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C3519FA1E074221005A4ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C351A0A1E074222005A4ECF /* LaunchScreen.storyboard in Resources */,
+				4C351A071E074222005A4ECF /* Assets.xcassets in Resources */,
+				4C351A051E074222005A4ECF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C351A0E1E074222005A4ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C351A191E074222005A4ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C3519F81E074221005A4ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C351A021E074222005A4ECF /* ViewController.swift in Sources */,
+				4C351A001E074222005A4ECF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C351A0C1E074222005A4ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C351A151E074222005A4ECF /* BrokenToaster1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C351A171E074222005A4ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C351A201E074222005A4ECF /* BrokenToaster1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C351A121E074222005A4ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3519FB1E074221005A4ECF /* BrokenToaster1 */;
+			targetProxy = 4C351A111E074222005A4ECF /* PBXContainerItemProxy */;
+		};
+		4C351A1D1E074222005A4ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3519FB1E074221005A4ECF /* BrokenToaster1 */;
+			targetProxy = 4C351A1C1E074222005A4ECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C351A031E074222005A4ECF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C351A041E074222005A4ECF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C351A081E074222005A4ECF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C351A091E074222005A4ECF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C351A221E074222005A4ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C351A231E074222005A4ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C351A251E074222005A4ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B9452FEMTF;
+				INFOPLIST_FILE = BrokenToaster1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilykolar.BrokenToaster1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C351A261E074222005A4ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B9452FEMTF;
+				INFOPLIST_FILE = BrokenToaster1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilykolar.BrokenToaster1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C351A281E074222005A4ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B9452FEMTF;
+				INFOPLIST_FILE = BrokenToaster1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilykolar.BrokenToaster1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrokenToaster1.app/BrokenToaster1";
+			};
+			name = Debug;
+		};
+		4C351A291E074222005A4ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B9452FEMTF;
+				INFOPLIST_FILE = BrokenToaster1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilykolar.BrokenToaster1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrokenToaster1.app/BrokenToaster1";
+			};
+			name = Release;
+		};
+		4C351A2B1E074222005A4ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B9452FEMTF;
+				INFOPLIST_FILE = BrokenToaster1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilykolar.BrokenToaster1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BrokenToaster1;
+			};
+			name = Debug;
+		};
+		4C351A2C1E074222005A4ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B9452FEMTF;
+				INFOPLIST_FILE = BrokenToaster1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilykolar.BrokenToaster1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BrokenToaster1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C3519F71E074221005A4ECF /* Build configuration list for PBXProject "BrokenToaster1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C351A221E074222005A4ECF /* Debug */,
+				4C351A231E074222005A4ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C351A241E074222005A4ECF /* Build configuration list for PBXNativeTarget "BrokenToaster1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C351A251E074222005A4ECF /* Debug */,
+				4C351A261E074222005A4ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C351A271E074222005A4ECF /* Build configuration list for PBXNativeTarget "BrokenToaster1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C351A281E074222005A4ECF /* Debug */,
+				4C351A291E074222005A4ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C351A2A1E074222005A4ECF /* Build configuration list for PBXNativeTarget "BrokenToaster1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C351A2B1E074222005A4ECF /* Debug */,
+				4C351A2C1E074222005A4ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C3519F41E074221005A4ECF /* Project object */;
+}
