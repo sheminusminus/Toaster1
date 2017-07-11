@@ -14,6 +14,7 @@
 		4C351A0A1E074222005A4ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C351A081E074222005A4ECF /* LaunchScreen.storyboard */; };
 		4C351A151E074222005A4ECF /* BrokenToaster1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C351A141E074222005A4ECF /* BrokenToaster1Tests.swift */; };
 		4C351A201E074222005A4ECF /* BrokenToaster1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C351A1F1E074222005A4ECF /* BrokenToaster1UITests.swift */; };
+		4C351A2E1E074575005A4ECF /* ToasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C351A2D1E074575005A4ECF /* ToasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4C351A1B1E074222005A4ECF /* BrokenToaster1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrokenToaster1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C351A1F1E074222005A4ECF /* BrokenToaster1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenToaster1UITests.swift; sourceTree = "<group>"; };
 		4C351A211E074222005A4ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C351A2D1E074575005A4ECF /* ToasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4C351A061E074222005A4ECF /* Assets.xcassets */,
 				4C351A081E074222005A4ECF /* LaunchScreen.storyboard */,
 				4C351A0B1E074222005A4ECF /* Info.plist */,
+				4C351A2D1E074575005A4ECF /* ToasterViewController.swift */,
 			);
 			path = BrokenToaster1;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C351A021E074222005A4ECF /* ViewController.swift in Sources */,
+				4C351A2E1E074575005A4ECF /* ToasterViewController.swift in Sources */,
 				4C351A001E074222005A4ECF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
